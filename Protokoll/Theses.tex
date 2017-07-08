@@ -1,0 +1,73 @@
+%
+%     Hauptdatei des Latex-Dokuments
+%
+
+%========================= Allgemeine Informationen =============================
+% Angaben zum Autor, der Arbeit und dem Betreuer
+\def \AUTHOR     {Viviane Bremer, Justus Drögemüller, Manisch Kumar} 
+\def \TITLE      {Fachlabor Mikromechatronik}
+\def \TYPE       {Laborprotokoll}
+\def \MATRIKELNR {4254652, 1234567, 1234567}
+%\def \BETREUER   {Dipl.-Ing. Vor- und Zuname}
+%==================== Ende allgemeine Informationen =============================
+
+
+
+\input{chapters/header}                         % Latex-Packages und Layout Konfiguration
+\begin{document}                                % Beginn des Dokumentes
+\pagenumbering{Roman}                           % Seitenzahlen in römischen Ziffern
+\include{chapters/frontpage}                    % Einbinden der Titelseite
+
+
+%============================ optionale Seiten ==================================
+% Seiten die vor dem Inhaltsverzeichnis erscheinen sollen
+
+%\includepdf{chapters/Aufgabenstellung.pdf}     % Aufgabenstellung als pdf-Datei
+%\include{chapters/Eidesstattliche_Erklaerung}  % Eidesstattliche Erklärung (nur für Diplomarbeit erforderlich)
+
+%========================== Ende optionale Seiten ===============================
+
+
+\tableofcontents                                % Inhaltsverzeichnis
+\newpage
+\setcounter{page}{1}                            % Seitenzahl zurücksetzten
+\pagenumbering{arabic}                          % Seitenzahlen in arabischen Zahlen
+
+
+%============================ Kapitel der Arbeit ==================================
+% Hier sind die einzelnen Kapitel der Arbeit einzubinden
+
+%\input{chapters/Symbolverzeichnis}
+
+\input{chapters/introduction}
+\input{chapters/preliminary-design}
+\input{chapters/FEM-Simulation}
+\input{chapters/etching-process}
+\input{chapters/characterising}
+\input{chapters/circuit-layout}
+\input{chapters/evaluation-circuit}
+\input{chapters/Zusammenfassung}
+
+%=============================== Ende Kapitel =====================================
+
+\bibliography{chapters/bibliography}              % Literaturverzeichnis
+
+% Anhang (Formatierung)
+\appendix
+\chapter*{Appendix}
+\addcontentsline{toc}{chapter}{appendix}
+\setcounter{chapter}{1}
+\markboth{Anhang}{Anhang}
+\label{Anhang}
+
+
+%============================ Kapitel des Anhangs ==================================
+% Kapitel die als Anhang angefügt werden sollen
+
+\input{chapters/appendix}
+
+%================================ Ende Anhangs =====================================
+
+
+\end{document}                                    % Ende des Dokumentes
+

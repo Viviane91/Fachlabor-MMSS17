@@ -1,0 +1,65 @@
+%
+%		Header-Datei
+%
+
+\documentclass[
+	pdftex,             % Ausgabe des Latex-Dokuments als PDF
+	12pt,				        % Schriftgroesse 12pt
+	a4paper,		      	% Layout fuer Din A4
+	german,			      	% deutsche Sprache, global
+	BCOR10mm,		        % DIV-Wert fuer die Erstellung des Satzspiegels
+	DIV14,				      % Korrektur für die Bindung
+	parskip=half,       % Absatzgröße -> halber Zeilenabstand
+	oneside,			      % Einseitiger Druck
+	%twoside,		        % Zweiseitiger Druck
+	openany,            % Kapitel können auf geraden und ungeraden Seiten beginnen
+	numbers=noenddot,   % Kapitelnummern immer ohne Punkt
+	bibliography=totoc,	% Literaturverzeichnis im Inhaltsverzeichnis angeben
+	index=totoc			    % Index im Inhaltsverzeichnis angeben
+]{scrreprt}
+
+
+% PDF-Dokument formatieren
+\usepackage[
+	pdftitle={\TITLE},
+	pdfauthor={\AUTHOR},
+	pdfcreator={pdfLatex},
+	pdfsubject={\TYPE\ am Institut für Mikrotechnik der Technischen Universität Braunschweig},
+	pdfkeywords={\TYPE, Technische Universität Braunschweig, TU-BS, Institut für Mikrotechnik, IMT, \TITLE, \AUTHOR, \MATRIKELNR},
+  colorlinks={true}, % Umrandung von Links nicht sichtbar
+  linkcolor={black},
+  citecolor={black},
+  filecolor={black},
+  urlcolor={black},
+	pdflang={de},
+	hyperindex=true
+]{hyperref}
+
+% Deutsche Rechtschreibung
+\usepackage{german,ngerman}
+\usepackage[latin1]{inputenc}
+\usepackage[T1]{fontenc}
+
+% Aktuelles Datum ermitteln
+\usepackage[ngerman]{datenumber}
+
+% Erweiterung für ein deutsches Literaturverzeichnis
+\bibliographystyle{alphadin}
+
+% Benutzerdefinierte Kopf- und Fußzeile
+\usepackage[automark]{scrpage2}
+\pagestyle{scrheadings}
+\setheadsepline{.4pt} % Linie unter dem Header
+
+% Erweiterte Mathematikbibliotheken
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+% Maßeinhaeiten-Darstellung verbessern
+\usepackage{units}
+
+% Einbinden von externen PDF Dateien
+\usepackage[final]{pdfpages}
+
+% Zum einbinden von Grafiken  
+\usepackage{graphicx}
