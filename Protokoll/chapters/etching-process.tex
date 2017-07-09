@@ -1,31 +1,59 @@
 \chapter{Etching Process}
-\label{sec:Etching Process}
+\label{sec:EtchingProcess}
+
+
+(Viviane Bremer)\\
+Für die Erstellung der Sensormembran muss zunächst der Ätzprozess charakterisiert werden. Zur Berechnung des zu ätzenden Volumens wird folgende Volumenformel eines Pyramidenstumpfes, 
+
+\begin{equation}
+	V = \frac{h}{3}(A_1 + \sqrt{A_1 A_2} + A_2), \label{eq:Pyramide}
+\end{equation}
+ 
+
+benötigt. Für die Fertigung wird ein 4"-Wafer mit einer Dicke von \unit[450]{$\mu m$} genutzt. Die zu erzeugende Membran ohne Boss hat eine Breite von \unit[4000]{$\mu m$} und eine Dicke von \unit[25]{$\mu m$}. Dies führt zu einer Ätzhöhe von
+
+\begin{equation}
+	h = 450\,\mu m - 25\,\mu m = 425\,\mu m.
+\end{equation}
+
+
+Die Fläche $A_1$ bestimmt sich mit der Membranbreite zu
+
+\begin{equation}
+	A_1 = a_1^2 = 4000\,\mu m \cdot 4000\,\mu m = 16\,mm^2.
+\end{equation}
+
+Fläche $A_2$ ergibt sich mit
+
+\begin{align}
+	\tan(54,7°) = \frac{425\,\mu m}{\Delta a} \\
+	\Delta a = \frac{425\,\mu m}{\tan(54,7°)} = 300\,\mu m\\
+	a_2 = a_1 - 2 \Delta a = 3400\,\mu m
+\end{align}
+
+zu
+
+\begin{equation}
+	A_2 = a_2^2 = 11,56\,mm^2.
+\end{equation}
+
+Dies eingesetzt in Gleichung \ref{eq:Pyramide} ergibt für das zu ätzende Volumen
+
+\begin{equation}
+	V_{Si} = \frac{0.425\,mm}{3}(16 + \sqrt{16 \cdot 11.56} +11.56)\,mm^2 = 5.831\,mm^3.
+\end{equation}
+
+Die Dichte $\rho_{Si}$ von Silizium beträgt \unitfrac[0.002336]{g}{$mm^3$}. Dies führt mit dem errechneten Volumen zu einer Masse von
+
+\begin{equation}
+	m_{Si} = \rho V_{Si} = 0.0137\,g
+\end{equation}
+
+Mit der Molmasse von Silizium, $M_{Si} = $\unitfrac[28.09]{g}{mol}, ergibt sich die Stoffmenge zu
+
+\begin{equation}
+	n_{Si} = \frac{m_{Si}}{M_{Si}} = 4.877 \cdot 10^{-4}.
+\end{equation}
 
 
 
-\section{Wert und Einheit}
-\label{sec:Unit}
-Viele Einheiten lassen sich schöner darstellen mit dem "`Tag"' \verb|\unit[]{}| beziehungsweise \verb|\unitfrac[]{}{}|. Siehe den Vergleich: ohne 1~m oder mit \unit[1]{m} bzw. ohne 1~m/sec oder mit \unitfrac[1]{m}{sec}.
-
-\section{Überschrift}
-\label{sec:Quelltext}
-Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text
-
-\section{Abbildungen einbinden}
-\label{sec:pictures}
-Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text 
-
-
-\begin{figure}[htbp]
-  \centering
-  \includegraphics{figures/empty.jpg}
-  \caption{Einzelne Abbildung}
-  \label{fig:singlepicture}
-\end{figure}
-
-
-Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text 
-
-
-
-Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text 

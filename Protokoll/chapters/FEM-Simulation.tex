@@ -3,29 +3,28 @@
 
 
 
-\section{Wert und Einheit}
-\label{sec:Unit}
-Viele Einheiten lassen sich schöner darstellen mit dem "`Tag"' \verb|\unit[]{}| beziehungsweise \verb|\unitfrac[]{}{}|. Siehe den Vergleich: ohne 1~m oder mit \unit[1]{m} bzw. ohne 1~m/sec oder mit \unitfrac[1]{m}{sec}.
+\section{Einfluss der Membrandicke auf die maximale Spannung (Viviane Bremer)}
+\label{sec:Membrandicke}
 
-\section{Überschrift}
-\label{sec:Quelltext}
-Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text
+In diesem Abschnitt wird der Einfluss der Membrandicke auf die auftretende mechanische Spannung in der Membran betrachtet. Hierfür werden folgende Dicken genutzt: \unit[15]{$\mu$m}, \unit[25]{$\mu$m}, ,\unit[35]{$\mu$m}.
 
-\section{Abbildungen einbinden}
-\label{sec:pictures}
-Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text 
+%\begin{itemize}
+%	\item[a.] \unit[15]{$\mu m$}
+%	\item[b.] \unit[25]{$\mu m$}
+%	\item[c.] \unit[35]{$\mu m$}	
+%\end{itemize}
 
+Zur Analyse wird der anliegende Druck für alle drei Membrandicken in \unit[0.2]{bar} Schritten von \unit[0.2]{bar} bis \unit[1]{bar} erhöht und die resultierende mechanische Spannung ermittelt. Die Verläufe sind in Abbildung \textbf{blubb} dargestellt. Die Bruchspannung $\sigma_{Br}$ von Silizium beträgt \unit[830]{MPa} und sollte während des Sensorbetriebs nicht überschritten werden. Zur besseren Visualisierung ist sie als Konstante im Graphen dargestellt.
 
-\begin{figure}[htbp]
-  \centering
-  \includegraphics{figures/empty.jpg}
-  \caption{Einzelne Abbildung}
-  \label{fig:singlepicture}
-\end{figure}
+Membran a erreicht die Bruchspannung schon bei einem Druck von \unit[0.439]{bar}, welcher im benötigten Messbereich liegt. Im Falle von Membran b wird sie knapp oberhalb des Messbereichs bei \unit[1.05]{bar} erreicht. Die Bruchspannung bei Membran c entspricht einem anliegenden Druck von \unit[2]{bar}, welcher deutlich oberhalb des Messbereiches ist. Hieraus lassen sich Erkenntnisse für das Sensorverhalten gewinnen. Membran a ist zu dünn für diese Messaufgabe, da sie innerhalb des Messbereichs reißt. Jedoch ist Membran c auch nicht akzeptabel, da niedrige Spannungen auftreten im Vergleich zu Membran b. Diese bildet einen guten Kompromiss für die gewünschte Aufgabe.
 
 
-Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text 
+\section{Einfluss der Membranabmessungen auf den Spannungsverlauf}
+\label{sec:Membranabmessungen}
 
+\subsection{Einfluss der Bossgröße (Viviane Bremer)}
+\label{subsec:Bosssize}
 
+Zur Analyse des Einflusses der Bossgröße wird die Membrangröße auf \unit[3600]{$\mu$m} und die Membrandicke auf \unit[25]{$\mu$m} gesetzt. Die Bossgröße wird folgendermaßen variiert: \unit[800]{$\mu$m}, \unit[1000]{$\mu$m}, \unit[1200]{$\mu$m}.
 
-Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text 
+Die Spannungsverläufe und Verschiebungen sind in Abbildung \textbf{blubb} dargestellt. Bei einer Bossgröße von \unit[800]{$\mu$m} treten Spannungen von bis zu \unit[274]{MPa} auf. Eine Vergrößerung des Bosses auf \unit[1000]{$\mu$m} führt zu einer maximalen Spannung von  \unit[178]{MPa}. Der größte Boss senkt die auftretende Spannung auf \unit[128]{MPa}. Des Weiteren ist zu sehen, dass eine Vergrößerung des Bosses zu einer Angleichung der Spannungsspitzen führt und die Dehnung der Membran von \unit[374]{$\mu$m} auf \unit[77]{$\mu$m} senkt.
