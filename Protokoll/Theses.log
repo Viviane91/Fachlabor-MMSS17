@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.6.4)  8 JUL 2017 16:36
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.6.4)  9 JUL 2017 17:05
 entering extended mode
 **Theses.tex
-(E:\Documents\Studium\Labor\Latex\Theses.tex
+(E:\Documents\Studium\Labor\Protokoll\Theses.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -13,7 +13,7 @@ german-x-2013-05-26, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
 ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
 an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
 ishmax, welsh, loaded.
-(E:\Documents\Studium\Labor\Latex\chapters/header.tex
+(E:\Documents\Studium\Labor\Protokoll\chapters/header.tex
 ("C:\Program Files\MiKTeX 2.9\tex\latex\koma-script\scrreprt.cls"
 Document Class: scrreprt 2016/05/10 v3.20 KOMA-Script document class (report)
 ("C:\Program Files\MiKTeX 2.9\tex\latex\koma-script\scrkbase.sty"
@@ -291,6 +291,45 @@ Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
 File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
 ))
+("C:\Program Files\MiKTeX 2.9\tex\latex\lm\lmodern.sty"
+Package: lmodern 2009/10/30 v1.6 Latin Modern Fonts
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/lmm/m/it on input line 23.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/lmsy/m/n on input line 24.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 25.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 26.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/lmm/b/it on input line 27.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/lmsy/b/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 31.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 32.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/lmr/m/it on input line 33.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 36.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\nowidow\nowidow.sty"
+Package: nowidow 2011/09/20 1.0 Easily prevent widows and orphans
+Package: nowidow 
+)
 ("C:\Program Files\MiKTeX 2.9\tex\latex\datenumber\datenumber.sty"
 Package: datenumber 2001/08/06v0.02
 
@@ -467,43 +506,13 @@ File: pppdftex.def 2016/04/19 v0.5f Pdfpages driver for pdfTeX (AM)
 \c@AM@survey=\count124
 \AM@templatesizebox=\box31
 ))
-(E:\Documents\Studium\Labor\Latex\Theses.aux
-(E:\Documents\Studium\Labor\Latex\chapters/frontpage.aux)
+(E:\Documents\Studium\Labor\Protokoll\Theses.aux
+(E:\Documents\Studium\Labor\Protokoll\chapters/frontpage.aux)
 
 LaTeX Warning: Label `sec:Unit' multiply defined.
 
 
 LaTeX Warning: Label `sec:Quelltext' multiply defined.
-
-
-LaTeX Warning: Label `sec:pictures' multiply defined.
-
-
-LaTeX Warning: Label `fig:singlepicture' multiply defined.
-
-
-LaTeX Warning: Label `sec:Unit' multiply defined.
-
-
-LaTeX Warning: Label `sec:Quelltext' multiply defined.
-
-
-LaTeX Warning: Label `sec:pictures' multiply defined.
-
-
-LaTeX Warning: Label `fig:singlepicture' multiply defined.
-
-
-LaTeX Warning: Label `sec:Unit' multiply defined.
-
-
-LaTeX Warning: Label `sec:Quelltext' multiply defined.
-
-
-LaTeX Warning: Label `sec:pictures' multiply defined.
-
-
-LaTeX Warning: Label `fig:singlepicture' multiply defined.
 
 
 LaTeX Warning: Label `sec:Unit' multiply defined.
@@ -544,9 +553,14 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
 LaTeX Font Info:    ... okay on input line 17.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 17.
 LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 17.
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\t1lmr.fd"
+File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
 \AtBeginShipoutBox=\box32
 Package hyperref Info: Link coloring ON on input line 17.
- ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
@@ -558,8 +572,8 @@ LaTeX Info: Redefining \ref on input line 17.
 LaTeX Info: Redefining \pageref on input line 17.
 LaTeX Info: Redefining \nameref on input line 17.
 
-(E:\Documents\Studium\Labor\Latex\Theses.out)
-(E:\Documents\Studium\Labor\Latex\Theses.out)
+(E:\Documents\Studium\Labor\Protokoll\Theses.out)
+(E:\Documents\Studium\Labor\Protokoll\Theses.out)
 \@outlinefile=\write3
 
 ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
@@ -581,28 +595,55 @@ Package: pdflscape 2008/08/11 v0.10 Display of landscape pages in PDF (HO)
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\lscape.sty"
 Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 ))
-(E:\Documents\Studium\Labor\Latex\chapters/frontpage.tex
-<figures/header.jpg, id=131, 1105.12875pt x 406.51875pt>
+(E:\Documents\Studium\Labor\Protokoll\chapters/frontpage.tex
+<figures/header.jpg, id=119, 1105.12875pt x 406.51875pt>
 File: figures/header.jpg Graphic file (type jpg)
 
 <use figures/header.jpg>
 Package pdftex.def Info: figures/header.jpg used on input line 6.
 (pdftex.def)             Requested size: 625.95801pt x 230.25418pt.
 
-Overfull \hbox (162.13704pt too wide) in paragraph at lines 7--8
+Overfull \hbox (162.13974pt too wide) in paragraph at lines 7--8
 [][] 
  []
 
-LaTeX Font Info:    Try loading font information for T1+cmss on input line 11.
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1cmss.fd"
-File: t1cmss.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+LaTeX Font Info:    Try loading font information for T1+lmss on input line 11.
+("C:\Program Files\MiKTeX 2.9\tex\latex\lm\t1lmss.fd"
+File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) [1
 
 
 
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <E:/Documents/Studium/Labo
-r/Latex/figures/header.jpg>]) (E:\Documents\Studium\Labor\Latex\Theses.toc
+r/Protokoll/figures/header.jpg>]) (E:\Documents\Studium\Labor\Protokoll\Theses.
+toc
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 2.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\lm\ot1lmr.fd"
+File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 2.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omllmm.fd"
+File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 2.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omslmsy.fd"
+File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 2.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omxlmex.fd"
+File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <12> on input line 2.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 2.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 2.
 LaTeX Font Info:    Try loading font information for U+msa on input line 2.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
@@ -612,97 +653,98 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 2.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [2
-
-
-])
+))
 \tf@toc=\write4
- [3]
-(E:\Documents\Studium\Labor\Latex\chapters/introduction.tex
+ [2
+
+
+]
+(E:\Documents\Studium\Labor\Protokoll\chapters/introduction.tex
 chapter 1.
-) (E:\Documents\Studium\Labor\Latex\chapters/preliminary-design.tex [1
+) (E:\Documents\Studium\Labor\Protokoll\chapters/preliminary-design.tex
+[1
 
 ]
 chapter 2.
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 8.
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1cmtt.fd"
-File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
-)
-<figures/empty.jpg, id=197, 179.7114pt x 121.4136pt>
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 8.
+("C:\Program Files\MiKTeX 2.9\tex\latex\lm\t1lmtt.fd"
+File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+))
+(E:\Documents\Studium\Labor\Protokoll\chapters/FEM-Simulation.tex [2
+
+]
+chapter 3.
+) (E:\Documents\Studium\Labor\Protokoll\chapters/etching-process.tex [3
+
+]
+[4]
+chapter 4.
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 32.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 32.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 32.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 32.
+
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 46.
+[5
+
+]) (E:\Documents\Studium\Labor\Protokoll\chapters/characterising.tex [6]
+chapter 5.
+<figures/empty.jpg, id=217, 179.7114pt x 121.4136pt>
 File: figures/empty.jpg Graphic file (type jpg)
  <use figures/empty.jpg>
 Package pdftex.def Info: figures/empty.jpg used on input line 21.
 (pdftex.def)             Requested size: 179.71094pt x 121.4133pt.
 
-[2
+[7
 
- <E:/Documents/Studium/Labor/Latex/figures/empty.jpg>])
-(E:\Documents\Studium\Labor\Latex\chapters/FEM-Simulation.tex [3]
-chapter 3.
-File: figures/empty.jpg Graphic file (type jpg)
-<use figures/empty.jpg>
-Package pdftex.def Info: figures/empty.jpg used on input line 21.
-(pdftex.def)             Requested size: 179.71094pt x 121.4133pt.
- [4
-
-])
-(E:\Documents\Studium\Labor\Latex\chapters/etching-process.tex [5]
-chapter 4.
-File: figures/empty.jpg Graphic file (type jpg)
-<use figures/empty.jpg>
-Package pdftex.def Info: figures/empty.jpg used on input line 21.
-(pdftex.def)             Requested size: 179.71094pt x 121.4133pt.
- [6
-
-])
-(E:\Documents\Studium\Labor\Latex\chapters/characterising.tex [7]
-chapter 5.
-File: figures/empty.jpg Graphic file (type jpg)
-<use figures/empty.jpg>
-Package pdftex.def Info: figures/empty.jpg used on input line 21.
-(pdftex.def)             Requested size: 179.71094pt x 121.4133pt.
- [8
-
-])
-(E:\Documents\Studium\Labor\Latex\chapters/circuit-layout.tex [9]
+ <E:/Documents/Studium/Labor/Protokoll/figures/empty.jpg>])
+(E:\Documents\Studium\Labor\Protokoll\chapters/circuit-layout.tex [8]
 chapter 6.
 File: figures/empty.jpg Graphic file (type jpg)
 <use figures/empty.jpg>
 Package pdftex.def Info: figures/empty.jpg used on input line 21.
 (pdftex.def)             Requested size: 179.71094pt x 121.4133pt.
- [10
+ [9
 
 ])
-(E:\Documents\Studium\Labor\Latex\chapters/evaluation-circuit.tex [11]
+(E:\Documents\Studium\Labor\Protokoll\chapters/evaluation-circuit.tex [10]
 chapter 7.
 File: figures/empty.jpg Graphic file (type jpg)
 <use figures/empty.jpg>
 Package pdftex.def Info: figures/empty.jpg used on input line 21.
 (pdftex.def)             Requested size: 179.71094pt x 121.4133pt.
- [12
+ [11
 
 ])
-(E:\Documents\Studium\Labor\Latex\chapters/Zusammenfassung.tex [13]
+(E:\Documents\Studium\Labor\Protokoll\chapters/Zusammenfassung.tex [12]
 chapter 8.
-) (E:\Documents\Studium\Labor\Latex\Theses.bbl [14
+) (E:\Documents\Studium\Labor\Protokoll\Theses.bbl [13
 
 ]
 chapter without number
-) [15
+) [14
 
-] (E:\Documents\Studium\Labor\Latex\chapters/appendix.tex)
+] (E:\Documents\Studium\Labor\Protokoll\chapters/appendix.tex)
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 72.
- [16
+ [15
 
 ]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 72.
 
-(E:\Documents\Studium\Labor\Latex\Theses.aux
-(E:\Documents\Studium\Labor\Latex\chapters/frontpage.aux))
+(E:\Documents\Studium\Labor\Protokoll\Theses.aux
+(E:\Documents\Studium\Labor\Protokoll\chapters/frontpage.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 72.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 72.
 Package rerunfilecheck Info: File `Theses.out' has not changed.
-(rerunfilecheck)             Checksum: 77D7B2760766C660E90D2DFBAC7981C7;1955.
+(rerunfilecheck)             Checksum: 6E120CED3CCB0065426BBE3088B8EA90;1924.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -710,31 +752,33 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 72.
  ) 
 Here is how much of TeX's memory you used:
- 10151 strings out of 493921
- 157548 string characters out of 3147283
- 339168 words of memory out of 3000000
- 13194 multiletter control sequences out of 15000+200000
- 21550 words of font info for 50 fonts, out of 3000000 for 9000
+ 10360 strings out of 493921
+ 161704 string characters out of 3147283
+ 339920 words of memory out of 3000000
+ 13378 multiletter control sequences out of 15000+200000
+ 74809 words of font info for 56 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 45i,10n,66p,8575b,430s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\vivia\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\
-ecti1200.pk> <C:\Users\vivia\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\
-ec\dpi600\eccc1200.pk> <C:\Users\vivia\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour
-\jknappen\ec\dpi600\ecrm0800.pk> <C:\Users\vivia\AppData\Local\MiKTeX\2.9\fonts
-\pk\ljfour\jknappen\ec\dpi600\ectt1200.pk> <C:\Users\vivia\AppData\Local\MiKTeX
-\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecsx1728.pk> <C:\Users\vivia\AppData\Lo
-cal\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecsl1200.pk> <C:\Users\vivia\
-AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk> <C:\Us
-ers\vivia\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecsx1200.
-pk> <C:\Users\vivia\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600
-\ecbx1728.pk> <C:\Users\vivia\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen
-\ec\dpi600\ecsx1440.pk> <C:\Users\vivia\AppData\Local\MiKTeX\2.9\fonts\pk\ljfou
-r\jknappen\ec\dpi600\ecss1440.pk> <C:\Users\vivia\AppData\Local\MiKTeX\2.9\font
-s\pk\ljfour\jknappen\ec\dpi600\ecsx2488.pk> <C:\Users\vivia\AppData\Local\MiKTe
-X\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecss1728.pk>
-Output written on Theses.pdf (19 pages, 273755 bytes).
+ 45i,11n,66p,8575b,430s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files/M
+iKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/d
+vips/lm/lm-mathsy.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathex
+.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}<C:/Program 
+Files/MiKTeX 2.9/fonts/type1/public/lm/lmbx12.pfb><C:/Program Files/MiKTeX 2.9/
+fonts/type1/public/lm/lmcsc10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
+ic/lm/lmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmmi12.pfb>
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmmi8.pfb><C:/Program Files/
+MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
+ype1/public/lm/lmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr8
+.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmri12.pfb><C:/Program 
+Files/MiKTeX 2.9/fonts/type1/public/lm/lmro12.pfb><C:/Program Files/MiKTeX 2.9/
+fonts/type1/public/lm/lmss12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
+c/lm/lmss17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb
+><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program File
+s/MiKTeX 2.9/fonts/type1/public/lm/lmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts
+/type1/public/lm/lmtt12.pfb>
+Output written on Theses.pdf (17 pages, 423720 bytes).
 PDF statistics:
- 678 PDF objects out of 1000 (max. 8388607)
- 62 named destinations out of 1000 (max. 500000)
- 267 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 333 PDF objects out of 1000 (max. 8388607)
+ 64 named destinations out of 1000 (max. 500000)
+ 243 words of extra memory for PDF output out of 10000 (max. 10000000)
 
